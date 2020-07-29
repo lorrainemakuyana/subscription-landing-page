@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0; 
+}
+
+header {
+    width: 300px; 
+    margin: 0 auto; 
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 88);
+}
+
+header h5, header h4 {
+    margin: 0;
+    text-align: center; 
+    font-size: 18px;
+} 
+
+header h5 {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.choose-plan {
+    text-align: center; 
+    padding-top: 25px; 
+    padding-bottom: 5px;
+}
+
+.sub-plans {
+    display: flex; 
+    width: 60%; 
+    margin: 30px auto;
+    justify-content: space-between; 
+}
+
+.sub-plans h4, .sub-plans p {
+    text-align: center;
+}
+
+.sub-plans h4 {
+    font-size: 18px;
+}
+
+#num-users {
+    width: 170px;
+    line-height: 1.5em;
+    margin: 0 auto; 
+    border: 0.5px solid rgb(59, 59, 59);
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 0 20px 0;
+}
+
+section > div {
+    width: 30%;  
+    height: 380px; 
+    background-color: rgb(23, 23, 23); 
+    border-radius: 5px;
+}
+
+ul {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.75em;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "\2BC0";
+    color: rgb(255, 0, 88); 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    text-align: center;
+}
+
+.starter, .pro, .enterprise {
+    text-align: center;
+}
+
+.button {
+    padding: 12px 50px;
+    font-weight: bold; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 88);
+    background-color: rgb(23, 23, 23);
+    margin-top: 45px;
+    width: auto;
+}
+
+.pink-button {
+    background-color: rgb(255, 0, 88); 
+    margin: auto;
+    margin-top: 35px; 
+}
+
+.button:hover {
+    background-color: rgb(255, 0, 88); 
+}
+
+.pink-button:hover {
+    border: 1px solid rgb(255, 0, 88);
+    background-color: rgb(23, 23, 23);
+}
+
+.button:focus {
+    outline: none; 
+}
+
+a {
+    color: rgb(255, 0, 88);
+    text-decoration: none; 
+    font-weight: bold;
+}
+a:visited {
+    color: rgb(139, 0, 0);
+}
+a:hover {
+    text-decoration: underline; 
+    color: rgb(255, 255, 255);
+}
+a:active {
+    color: rgb(162, 7, 61);
+}
+
+footer {
+    line-height: 1.75em; 
+    text-align: center; 
+    margin-top: 40px; 
+    padding: 5px; 
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .choose-plan {
+        padding: 10px 0;
+    }
+    
+    .sub-plans {
+        display: block; 
+        width: 100%; 
+        margin: 0;
+    }
+    
+    section > div {
+        width: 90%;  
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: rgb(23, 23, 23); 
+        border-radius: 5px;
+        padding-top: 10px;
+        height: 400px;
+    }
+    
+    header {
+        width: 100%; 
+        text-align: center;
+    }
+    
+    footer {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1030px) {
+    
+}
